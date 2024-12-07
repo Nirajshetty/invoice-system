@@ -1,0 +1,8 @@
+services:
+  invoice-system:
+    container_name: invoice-system-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
